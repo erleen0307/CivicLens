@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "Issue": {
+      "title": "Issue",
+      "description": "A civic issue reported by a citizen.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "Concise summary of the issue" },
+        "description": { "type": "string", "description": "Detailed description of the issue" },
+        "category": { "type": "string", "description": "Municipal category of the issue" },
+        "severity": { "type": "string", "description": "Severity level: Low, Medium, High, Critical" },
+        "severityReason": { "type": "string", "description": "Reason for chosen severity" },
+        "suggestedDepartment": { "type": "string", "description": "Suggested responsible municipal department" },
+        "initialActionStep": { "type": "string", "description": "Suggested first action step" },
+        "address": { "type": "string", "description": "Physical address/location of the issue" },
+        "imageUrl": { "type": "string", "description": "Optional image URL/Base64" },
+        "status": { "type": "string", "description": "Status: Submitted, Investigating, In Progress, Resolved" },
+        "upvotes": { "type": "integer", "description": "Number of upvotes" },
+        "upvotedBy": { "type": "array", "description": "List of user session UIDs who upvoted" },
+        "reporterName": { "type": "string", "description": "Reporter name" },
+        "reporterEmail": { "type": "string", "description": "Reporter email" },
+        "createdAt": { "type": "integer", "description": "Timestamp of creation" },
+        "timeline": { "type": "array", "description": "History of events for this issue" }
+      },
+      "required": ["title", "description", "category", "severity", "status", "createdAt", "timeline"]
+    }
+  },
+  "firestore": {
+    "/issues/{issueId}": {
+      "schema": "Issue",
+      "description": "Collection of all submitted civic issues."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CivicLens",
+  "description": "AI-Powered Civic Issue Reporting Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
