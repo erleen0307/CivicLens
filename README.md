@@ -181,7 +181,7 @@ cd CivicLens
 npm install
 npm run dev
 ```
-<br>
+
 ### Environment Variables
 
 Create a `.env` file:
