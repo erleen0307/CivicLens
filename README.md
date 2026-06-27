@@ -83,15 +83,19 @@ The system converts unstructured citizen reports into structured municipal actio
 ## 📸 Screenshots
 
 **Dashboard**
+
 ![Dashboard](./assets/dashboard.png)
 
 **View all Issues**
+
 ![Report Form](./assets/issue-feed.png)
 
 **Report an Issue**
+
 ![Report Form](./assets/report.png)
 
 **AI Analysis Result**
+
 ![AI Result](./assets/report-registered.png)
 ![Full Complaint](./assets/check-report.png)
 
