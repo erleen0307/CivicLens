@@ -6,7 +6,13 @@ CivicLens is a full-stack AI-powered civic issue reporting system that enables c
 
 ---
 
-# 📌 Problem Statement
+## 🔗 Live Demo
+
+[Live Link](https://community-hero-1099237776044.asia-southeast1.run.app/)
+
+---
+
+## 📌 Problem Statement
 
 Urban civic issues such as potholes, waste dumping, water leaks, and streetlight failures are often reported through slow, unstructured, and inefficient systems. This leads to delayed responses, misclassification of issues, and poor prioritization by municipal authorities.
 
@@ -14,7 +20,7 @@ Citizens lack a fast, intelligent, and user-friendly system to report issues wit
 
 ---
 
-# 💡 Solution Overview
+## 💡 Solution Overview
 
 CivicLens solves this problem by introducing an AI-powered civic reporting platform where users can:
 
@@ -30,68 +36,85 @@ The system converts unstructured citizen reports into structured municipal actio
 
 ---
 
-# 🧠 Google Technologies Used
+## 🧠 Google Technologies Used
 
-## Google Gemini API
+### Google Gemini API
 - Natural language + image-based issue analysis
 - Structured JSON response generation
 - Automated civic classification
 
-## Firebase Firestore
+### Firebase Firestore
 - Real-time NoSQL database for issue storage
 - Dynamic dashboard updates
 
-## Firebase Storage
+### Firebase Storage
 - Secure image upload and retrieval system
 
-## Google Cloud Run
+### Google Cloud Run
 - Deployment of full-stack application backend
 
-## Google AI Studio
+### Google AI Studio
 - Rapid prototyping and iterative development workflow
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-## Frontend
+### Frontend
 - React
 - TypeScript
 - Tailwind CSS
 - Vite
 
-## Backend
+### Backend
 - Node.js
 - Express.js
 
-## Database & Storage
+### Database & Storage
 - Firebase Firestore
 - Firebase Storage
 
-## AI Integration
+### AI Integration
 - Google Gemini 2.5 Flash
 
 ---
 
-# ✨ Key Features
+## 📸 Screenshots
 
-## 🧠 AI-Powered Analysis
+### Dashboard
+![Dashboard](./assets/dashboard.png)
+
+### View all Issues
+![Report Form](./assets/issue-feed.png)
+
+### Report an Issue
+![Report Form](./assets/report.png)
+
+### AI Analysis Result
+![AI Result](./assets/report-registered.png)
+![Full Complaint](./assets/check-report.png)
+
+---
+
+## ✨ Key Features
+
+### 🧠 AI-Powered Analysis
 - Automatic classification of civic issues
 - Severity prediction (Low, Medium, High, Critical)
 - Suggested government department routing
 - Actionable response generation
 
-## 📸 Issue Reporting System
+### 📸 Issue Reporting System
 - Image + description-based reporting
 - Optional name/email fields
 - Real-time validation with modern UI feedback
 
-## 📊 Dashboard System
+### 📊 Dashboard System
 - Categorized issue tracking
 - Clean card-based UI
 - Responsive layout for all devices
 
-## ⚡ Smart Categorization
+### ⚡ Smart Categorization
 Supported categories:
 - Road and Potholes
 - Street Lighting
@@ -99,19 +122,19 @@ Supported categories:
 - Water and Utilities
 - Other
 
-## 📱 Responsive Design
+### 📱 Responsive Design
 - Mobile-first UI
 - Fully responsive across devices
 - Tailwind CSS-based modern interface
 
-## 🔄 Real-Time Backend Integration
+### 🔄 Real-Time Backend Integration
 - Firestore database integration
 - Image storage via Firebase Storage
 - Express backend API handling AI workflow
 
 ---
 
-# ⚙️ System Architecture
+## ⚙️ System Architecture
 
 User Flow:
 
@@ -128,7 +151,7 @@ User Flow:
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```
 
@@ -147,7 +170,7 @@ CivicLens/
 
 ---
 
-# 📊 AI Classification Categories
+## 📊 AI Classification Categories
 
 - Road and Potholes  
 - Street Lighting  
@@ -157,7 +180,7 @@ CivicLens/
 
 ---
 
-# 🚀 Core AI Workflow
+## 🚀 Core AI Workflow
 
 The AI system performs:
 
@@ -182,7 +205,7 @@ Output format:
 
 ---
 
-# 🎯 Future Improvements
+## 🎯 Future Improvements
 
 * User authentication (Firebase Auth)
 * Issue status tracking system (Open → In Progress → Resolved)
@@ -193,7 +216,7 @@ Output format:
 
 ---
 
-# 🏁 Setup Instructions
+### 🏁 Setup Instructions
 
 ```bash
 git clone https://github.com/<your-username>/CivicLens.git
@@ -202,7 +225,7 @@ npm install
 npm run dev
 ```
 
-## Environment Variables
+### Environment Variables
 
 Create a `.env` file:
 
@@ -213,7 +236,7 @@ FIREBASE_PROJECT_ID=your_project_id
 
 ---
 
-# 👨‍💻 Project Summary
+## 👨‍💻 Project Summary
 
 CivicLens transforms civic issue reporting into an AI-powered, structured, and automated workflow system. It bridges the gap between citizens and municipal services using modern web technologies and Google AI infrastructure.
 
@@ -221,7 +244,7 @@ The platform demonstrates full-stack capabilities including frontend development
 
 ---
 
-# 🏆 Impact
+## 🏆 Impact
 
 * Reduces manual effort in civic reporting
 * Improves issue classification accuracy
@@ -230,15 +253,9 @@ The platform demonstrates full-stack capabilities including frontend development
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is built for hackathon and educational purposes.
-
----
-
-# 🔗 Live Demo
-
-[Deployed Project](https://community-hero-1099237776044.asia-southeast1.run.app/)
 
 ---
 
