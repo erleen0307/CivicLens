@@ -16,13 +16,12 @@ Report • Analyze • Resolve civic issues intelligently
 ## 🏁 Hackathon Context
 
 This project is built for **VIBE2SHIP 2026**, a vibe-coding hackathon by **Coding Ninjas × Google for Developers**.
-<br>
+
 ### 📌 Problem Statement 2 — COMMUNITY HERO
 
 *Build a platform that enables citizens to identify, report, validate, track, and resolve community issues through collaboration, data, and intelligent automation.  
 The solution should encourage transparency, accountability, and community participation.*
 
----
 
 ## 💡 Solution Overview
 
@@ -59,7 +58,6 @@ The system converts unstructured citizen reports into structured municipal actio
 - **Google AI Studio**
   - Rapid development and iterative build workflow
 
----
 
 ## 🛠️ Tech Stack
 
@@ -86,13 +84,13 @@ The system converts unstructured citizen reports into structured municipal actio
 
 **Dashboard**
 ![Dashboard](./assets/dashboard.png)
-<br>
+
 **View all Issues**
 ![Report Form](./assets/issue-feed.png)
-<br>
+
 **Report an Issue**
 ![Report Form](./assets/report.png)
-<br>
+
 **AI Analysis Result**
 ![AI Result](./assets/report-registered.png)
 ![Full Complaint](./assets/check-report.png)
@@ -108,7 +106,6 @@ The system converts unstructured citizen reports into structured municipal actio
 - 📱 Fully responsive UI
 - ⚡ Fast, structured backend workflow
 
----
 
 ## ⚙️ System Architecture
 
