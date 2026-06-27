@@ -5,23 +5,23 @@ AI-powered civic issue reporting platform using Google Gemini<br/>
 Report • Analyze • Resolve civic issues intelligently
 </p>
 
----
+<br>
 
 ## 🔗 Live Demo
 
 [Live Link](https://community-hero-1099237776044.asia-southeast1.run.app/)
 
-
+<br> <br>
 ## 🏁 Hackathon Context
 
 This project is built for **VIBE2SHIP 2026**, a vibe-coding hackathon by **Coding Ninjas × Google for Developers**.
-
+<br>
 ### 📌 Problem Statement 2 — COMMUNITY HERO
 
 *Build a platform that enables citizens to identify, report, validate, track, and resolve community issues through collaboration, data, and intelligent automation.  
 The solution should encourage transparency, accountability, and community participation.*
 
-
+<br><br>
 ## 💡 Solution Overview
 
 CivicLens solves this problem by introducing an AI-powered civic reporting platform where users can:
@@ -37,7 +37,7 @@ CivicLens solves this problem by introducing an AI-powered civic reporting platf
 
 The system converts unstructured citizen reports into structured municipal action data.
 
-
+<br><br>
 ## 🧠 Google Technologies Used
 
 - **Google Gemini 2.5 Flash**
@@ -56,7 +56,7 @@ The system converts unstructured citizen reports into structured municipal actio
 - **Google AI Studio**
   - Rapid development and iterative build workflow
 
-
+<br><br>
 ## 🛠️ Tech Stack
 
 **Frontend**
@@ -76,23 +76,23 @@ The system converts unstructured citizen reports into structured municipal actio
 **AI Integration**
 - Google Gemini 2.5 Flash
 
-
+<br><br>
 ## 📸 Screenshots
-
+<br>
 ### Dashboard
 ![Dashboard](./assets/dashboard.png)
-
+<br>
 ### View all Issues
 ![Report Form](./assets/issue-feed.png)
-
+<br>
 ### Report an Issue
 ![Report Form](./assets/report.png)
-
+<br><br>
 ### AI Analysis Result
 ![AI Result](./assets/report-registered.png)
 ![Full Complaint](./assets/check-report.png)
 
-
+<br><br>
 ## ✨ Key Features
 
 - 📸 Image-based civic issue reporting
@@ -102,7 +102,7 @@ The system converts unstructured citizen reports into structured municipal actio
 - 📱 Fully responsive UI
 - ⚡ Fast, structured backend workflow
 
-
+<br><br>
 ## ⚙️ System Architecture
 
 User Flow:
@@ -117,8 +117,7 @@ User Flow:
    - action steps
 5. Backend stores data in Firestore
 6. Dashboard fetches and displays categorized issues
-
----
+<br><br>
 
 ## 📂 Project Structure
 
@@ -137,7 +136,7 @@ CivicLens/
 
 ````
 
-
+<br><br>
 ## 📊 AI Classification Categories
 
 - Road and Potholes  
@@ -146,7 +145,7 @@ CivicLens/
 - Water and Utilities  
 - Other  
 
-
+<br>
 ## 🚀 Core AI Workflow
 
 The AI system performs:
@@ -156,20 +155,7 @@ The AI system performs:
 - Severity evaluation based on risk level
 - Department mapping
 - Action recommendation generation
-
-Output format:
-
-```json
-{
-  "category": "Road and Potholes",
-  "title": "Pothole blocking main road",
-  "severity": "High",
-  "severityReason": "High traffic hazard risk",
-  "suggestedDepartment": "Department of Public Works",
-  "initialActionStep": "Dispatch repair team immediately"
-}
-````
-
+<br><br>
 
 ## 🎯 Future Improvements
 
@@ -178,7 +164,7 @@ Output format:
 * Map-based issue visualization
 * Notification system for updates
 
-
+<br><br>
 ### 🏁 Setup Instructions
 
 ```bash
@@ -187,7 +173,7 @@ cd CivicLens
 npm install
 npm run dev
 ```
-
+<br>
 ### Environment Variables
 
 Create a `.env` file:
@@ -197,7 +183,7 @@ GEMINI_API_KEY=your_api_key_here
 FIREBASE_PROJECT_ID=your_project_id
 ```
 
-
+<br><br>
 ## 🏆 Impact
 
 * Reduces manual effort in civic reporting
@@ -205,9 +191,11 @@ FIREBASE_PROJECT_ID=your_project_id
 * Speeds up municipal response workflow
 * Makes civic engagement more accessible and structured
 
-
+<br><br>
 ## 📌 Author
 
 ***VIBE2SHIP 2026 Submission***
+<br>
 With ❤️ by [@erleen0307](https://github.com/erleen0307/)
+<br>
 📅 Date Completed: July 27, 2026
